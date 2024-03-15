@@ -30,7 +30,12 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <a href="#getting-started">Getting Started</a>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#built-with">Usage</a></li>
+      </ul>
+    </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -57,7 +62,7 @@ This counter is builded only with Javascript.
 
 There is not much to do to get started.
 
-## Usage
+### Usage
 
 Click button add1 to add 1 to the counter or click sub1 to subtract 1 to the counter.
 Browser will remember your last counter.
