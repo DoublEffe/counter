@@ -57,15 +57,20 @@ This counter is builded only with Javascript.
 
 There is not much to do to get started.
 
+## Usage
+
+Click button add1 to add 1 to the counter or click sub1 to subtract 1 to the counter.
+Browser will remember your last counter.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### License
+## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Contact
+## Contact
 
 Fabio Fagiani - [@DoublEffe_](https://twitter.com/DoublEffe_) - fabiofagiani9@gmail.com
 
