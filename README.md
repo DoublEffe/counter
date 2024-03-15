@@ -60,6 +60,19 @@ This counter is builded only with Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Getting Started
+
+There is not much to do to get started.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+##Contact
+
+Fabio FAgiani - [@DoublEffe_](https://twitter.com/DoublEffe_) - fabiofagiani9@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!--variables-->
 [javascript]: https://img.shields.io/badge/Javascript-grey?style=for-the-badge&logo=javascript
 [javascript-url]: https://www.javascript.com/
