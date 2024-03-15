@@ -59,13 +59,13 @@ There is not much to do to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##License
+### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-##Contact
+### Contact
 
 Fabio Fagiani - [@DoublEffe_](https://twitter.com/DoublEffe_) - fabiofagiani9@gmail.com
 
