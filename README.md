@@ -46,6 +46,6 @@
 
 ## About The Project
 
-[![Counter Page Screen Shot]](https://github.com/DoublEffe/counter/blob/main/Screenshot.png)
+![Counter Page Screen Shot](https://github.com/DoublEffe/counter/blob/main/Screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
