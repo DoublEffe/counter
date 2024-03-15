@@ -48,4 +48,14 @@
 
 ![Counter Page Screen Shot](https://github.com/DoublEffe/counter/blob/main/Screenshot.png)
 
+This project is about learning Javascript.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+This counter is builded only with Javascript.
+
+* [![Next][Next.js]][Next-url]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
