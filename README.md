@@ -56,7 +56,7 @@ This project is about learning Javascript.
 
 This counter is builded only with Javascript.
 
-* [javascript][javascript-url]
+* [![javascript][javascript]][javascript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
