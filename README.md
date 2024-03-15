@@ -56,6 +56,10 @@ This project is about learning Javascript.
 
 This counter is builded only with Javascript.
 
-* [Next][Next.js]][Next-url]
+* [javascript][javascript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--variables-->
+[javascript]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+[javascript-url]: https://www.javascript.com/
