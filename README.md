@@ -61,5 +61,5 @@ This counter is builded only with Javascript.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!--variables-->
-[javascript]: https://img.shields.io/badge/logo-javascript-blue?logo=javascript
+[javascript]: https://img.shields.io/badge/Javascript-grey?style=for-the-badge&logo=javascript
 [javascript-url]: https://www.javascript.com/
