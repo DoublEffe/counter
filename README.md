@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <div align="center">
 
   <h3 align="center">Simple Counter.</h3>
