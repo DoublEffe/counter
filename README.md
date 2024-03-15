@@ -46,6 +46,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][screenshot]](https://example.com)
+[![Counter Page Screen Shot]]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
