@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded',() =>{
   if(localStorage.getItem('counter')){
     counter = localStorage.getItem('counter')
   }
+  else{
+    counter = 0
+  }
   count(counter)
   plus.addEventListener('click', () => {
     counter++
