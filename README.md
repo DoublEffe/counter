@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <div align="center">
 
   <h3 align="center">Simple Counter.</h3>
@@ -31,13 +33,9 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#built-with">Usage</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -46,6 +44,44 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Counter Page Screen Shot](https://github.com/DoublEffe/counter/blob/main/Screenshot.png)
+
+This project is about learning Javascript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+This counter is builded only with Javascript.
+
+* [![javascript][javascript]][javascript-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+
+There is not much to do to get started.
+
+### Usage
+
+Click button add1 to add 1 to the counter or click sub1 to subtract 1 to the counter.
+Browser will remember your last counter.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contact
+
+Fabio Fagiani - [@DoublEffe_](https://twitter.com/DoublEffe_) - fabiofagiani9@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!--variables-->
+[javascript]: https://img.shields.io/badge/Javascript-grey?style=for-the-badge&logo=javascript
+[javascript-url]: https://www.javascript.com/
