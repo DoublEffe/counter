@@ -10,7 +10,7 @@
     <a href="https://github.com/DoublEffe/counter/tree/main"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://doubleffe.github.io/counter/">View Demo</a>
     ·
     <a href="https://github.com/DoublEffe/counter/issues">Report Bug</a>
     ·
