@@ -2,6 +2,7 @@ import {div,buttonDiv, plus, subtract,text, counterText} from './components.js'
 
 //style of the page
 document.body.style.height = '100vh'
+document.body.style.backgroundColor= '#110080cc'
 div.style.height = '100%'
 div.style.display = 'flex'
 div.style.flexDirection = 'column'

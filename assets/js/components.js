@@ -3,9 +3,13 @@
 let div = document.createElement('div')
 let buttonDiv = document.createElement('div')
 let plus = document.createElement('button')
-plus.textContent = 'ADD 1'
+let plusImg = document.createElement('img')
+plusImg.setAttribute('src', 'assets/img/plus.svg')
+plus.appendChild(plusImg)
 let subtract = document.createElement('button')
-subtract.textContent = 'SUB 1'
+let minusImg = document.createElement('img')
+minusImg.setAttribute('src', 'assets/img/minus.svg')
+subtract.appendChild(minusImg)
 let text = document.createElement('p')
 text.innerText = 'Counter is at: '
 let counterText = document.createElement('span')
