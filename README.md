@@ -44,7 +44,7 @@
 
 ## About The Project
 
-![Counter Page Screen Shot](https://github.com/DoublEffe/counter/blob/main/Screenshot.png)
+![Counter Page Screen Shot]([https://github.com/DoublEffe/counter/blob/main/Screenshot.png](https://github.com/DoublEffe/counter/blob/main/assets/img/Screenshot.png))
 
 This project is about learning Javascript.
 
