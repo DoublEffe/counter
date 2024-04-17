@@ -20,6 +20,8 @@ function createBars() {
   bar.style.height = '5%'
   bar.style.backgroundColor = '#ec6912'
   bar.style.border = '5px solid yellow'
+  bar.style.position = 'absolute'
+  bar.style.top = '45px'
   div.appendChild(bar)
   return bar
 }
@@ -45,14 +47,10 @@ div.style.alignItems = 'center'
 //left bar
 let barL = createBars()
 barL.style.transform = 'skew(40deg)'
-barL.style.position = 'absolute'
-barL.style.top = '45px'
 barL.style.left = '10%'
 //right bar
 let barR = createBars()
 barR.style.transform = 'skew(-40deg)'
-barR.style.position = 'absolute'
-barR.style.top = '45px'
 barR.style.left = '55%'
 
 //wrapper button div
