@@ -5,7 +5,7 @@
   <h3 align="center">Simple Counter.</h3>
 
   <p align="center">
-    A counter... thats count.
+    A counter... thats count or almost.
     <br />
     <a href="https://github.com/DoublEffe/counter/tree/main"><strong>Explore the docs »</strong></a>
     <br />
