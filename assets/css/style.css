@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background: url('../img/tekken.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.outside {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar{
+  width: 35%;
+  height: 5%;
+  background-color: #ec6912;
+  border: 5px solid yellow;
+  position: absolute;
+  top: 45px;
+} 
+
+.barLeft {
+  left: 10%;
+  transform: skew(40deg);
+}
+
+.barRight {
+  left: 55%;
+  transform: skew(-40deg);
+}
+
+.buttonDiv {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 80px;
+  width: 100px;
+  border-radius: 5px;
+  
+}

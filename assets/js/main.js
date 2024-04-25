@@ -1,80 +1,56 @@
-function create(elem) {
+function createElement(elem) {
   return document.createElement(elem)
 }
 
-function createButton(img) {
-  let button = create('button')
-  let imgs = create('img')
-  button.style.height = '80px'
-  button.style.width = '100px'
-  button.style.borderRadius = '5px'
-  imgs.setAttribute('src', img)
-  button.appendChild(imgs)
-  buttonDiv.appendChild(button)
-  return button
-}
-
-function createBars() {
-  let bar = create('div')
-  bar.style.width = '35%'
-  bar.style.height = '5%'
-  bar.style.backgroundColor = '#ec6912'
-  bar.style.border = '5px solid yellow'
-  bar.style.position = 'absolute'
-  bar.style.top = '45px'
-  div.appendChild(bar)
-  return bar
-}
-
-document.body.style.height = '100vh'
-document.body.style.width = '100vw'
-document.body.style.background= 'url(assets/img/tekken.jpg)'
-document.body.style.backgroundSize = 'cover'
-document.body.style.overflow = 'hidden'
-
-
 
 //wrapper div
-let div = create('div')
+let div = createElement('div')
 document.body.appendChild(div)
-div.style.height = '100%'
-div.style.display = 'flex'
-div.style.flexDirection = 'column'
-div.style.justifyContent = 'center'
-div.style.alignItems = 'center'
+div.setAttribute('class', 'outside')
+
 
 //vital bars
 //left bar
-let barL = createBars()
-barL.style.transform = 'skew(40deg)'
-barL.style.left = '10%'
+let barL = createElement('div')
+barL.classList.add('bar', 'barLeft')
+div.appendChild(barL)
 //right bar
-let barR = createBars()
-barR.style.transform = 'skew(-40deg)'
-barR.style.left = '55%'
+let barR = createElement('div')
+barR.classList.add('bar', 'barRight')
+div.appendChild(barR)
+
+
 
 //wrapper button div
-let buttonDiv = create('div')
-buttonDiv.style.width = '25%'
-buttonDiv.style.display = 'flex'
-buttonDiv.style.justifyContent = 'space-between'
+let buttonDiv = createElement('div')
+buttonDiv.setAttribute('class', 'buttonDiv')
 div.appendChild(buttonDiv)
 
 //buttons
 //button plus
-let plus = createButton('assets/img/plus.svg')
+let plus = createElement('button')
+let imgPlus = createElement('img')
+imgPlus.setAttribute('src', 'assets/img/plus.svg')
+plus.appendChild(imgPlus)
 plus.setAttribute('id', 'plus')
+plus.setAttribute('class', 'button')
+buttonDiv.appendChild(plus)
 //button minus
-let minus = createButton('assets/img/minus.svg')
+let minus = createElement('button')
+let imgMinus = createElement('img')
+imgMinus.setAttribute('src', 'assets/img/minus.svg')
+minus.appendChild(imgMinus)
 minus.setAttribute('id', 'minus')
+minus.setAttribute('class', 'button')
+buttonDiv.appendChild(minus)
 
 
 //text
-let text = create('p')
+let text = createElement('p')
 text.style.fontSize = '2rem'
 text.innerText = 'Counter is at: '
 div.appendChild(text)
-let counterText = create('span')
+let counterText = createElement('span')
 text.appendChild(counterText)
 
 
@@ -102,6 +78,8 @@ document.addEventListener('DOMContentLoaded',() =>{
       barR.style.background = `linear-gradient(to right, black ${String(vitalR)}%, #ec6912)`
       count(counter)  
       if(vitalR == 100){
+        barR.style.backgroundColor = '#ec6912'
+        vitalR = 0
         window.alert('Right Champion Lost')
       }
     }
@@ -111,6 +89,8 @@ document.addEventListener('DOMContentLoaded',() =>{
       barL.style.background = `linear-gradient(to left, black ${String(vitalL)}%, #ec6912)`
       count(counter)
       if(vitalL == 100){
+        barL.style.backgroundColor = '#ec6912'
+        vitalL = 0
         window.alert('Left Champion Lost')
       }
     }
