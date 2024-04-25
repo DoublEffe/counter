@@ -5,7 +5,7 @@
   <h3 align="center">Simple Counter.</h3>
 
   <p align="center">
-    A counter... thats count.
+    A counter... thats count or almost.
     <br />
     <a href="https://github.com/DoublEffe/counter/tree/main"><strong>Explore the docs »</strong></a>
     <br />
@@ -66,6 +66,7 @@ There is not much to do to get started.
 
 Click button add1 to add 1 to the counter or click sub1 to subtract 1 to the counter.
 Browser will remember your last counter.
+(vital bar will decrease opposite of the button clicked)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
