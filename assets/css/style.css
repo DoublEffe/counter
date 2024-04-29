@@ -43,5 +43,9 @@ body {
   height: 80px;
   width: 100px;
   border-radius: 5px;
-  
+}
+
+.text {
+  font-size: 2rem;
+  color: purple;
 }

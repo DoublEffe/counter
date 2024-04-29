@@ -1,57 +1,49 @@
-function createElement(elem) {
-  return document.createElement(elem)
+function createElement(elem, arrayClassName, toAppend) {
+  let el = document.createElement(elem)
+  if(elem === 'img'){
+    el.setAttribute('src', arrayClassName)
+  }
+  else {
+    el.classList.add(...arrayClassName)
+  }
+  toAppend.appendChild(el)
+  return el
 }
 
 
 //wrapper div
-let div = createElement('div')
-document.body.appendChild(div)
-div.setAttribute('class', 'outside')
+let body = document.getElementsByTagName('body')[0]
+let div = createElement('div', ['outside'], body)
 
 
 //vital bars
 //left bar
-let barL = createElement('div')
-barL.classList.add('bar', 'barLeft')
-div.appendChild(barL)
-//right bar
-let barR = createElement('div')
-barR.classList.add('bar', 'barRight')
-div.appendChild(barR)
+let barL = createElement('div', ['bar', 'barLeft'], div)
 
+//right bar
+let barR = createElement('div', ['bar', 'barRight'], div)
 
 
 //wrapper button div
-let buttonDiv = createElement('div')
-buttonDiv.setAttribute('class', 'buttonDiv')
-div.appendChild(buttonDiv)
+let buttonDiv = createElement('div', ['buttonDiv'], div)
+
 
 //buttons
 //button plus
-let plus = createElement('button')
-let imgPlus = createElement('img')
-imgPlus.setAttribute('src', 'assets/img/plus.svg')
-plus.appendChild(imgPlus)
+let plus = createElement('button', ['button'], buttonDiv)
+let imgPlus = createElement('img', 'assets/img/plus.svg', plus)
 plus.setAttribute('id', 'plus')
-plus.setAttribute('class', 'button')
-buttonDiv.appendChild(plus)
 //button minus
-let minus = createElement('button')
-let imgMinus = createElement('img')
-imgMinus.setAttribute('src', 'assets/img/minus.svg')
-minus.appendChild(imgMinus)
+let minus = createElement('button', ['button'], buttonDiv)
+let imgMinus = createElement('img', 'assets/img/minus.svg', minus)
 minus.setAttribute('id', 'minus')
-minus.setAttribute('class', 'button')
-buttonDiv.appendChild(minus)
+
 
 
 //text
-let text = createElement('p')
-text.style.fontSize = '2rem'
+let text = createElement('p', ['text'], div)
 text.innerText = 'Counter is at: '
-div.appendChild(text)
-let counterText = createElement('span')
-text.appendChild(counterText)
+let counterText = createElement('span', [], text)
 
 
 
