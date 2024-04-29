@@ -36,7 +36,7 @@ plus.setAttribute('id', 'plus')
 //button minus
 let minus = createElement('button', ['button'], buttonDiv)
 let imgMinus = createElement('img', 'assets/img/minus.svg', minus)
-minus.setAttribute('id', 'minus')
+
 
 
 
